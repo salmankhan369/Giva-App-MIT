@@ -5,7 +5,7 @@ app = FastAPI(title="Giva-App-MIT")
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to Giva-App Production", "status": "Running"}
+    return {"message": "Welcome to Giva-App Production v2.0", "status": "Running"}
 
 @app.get("/health")
 def health():
